@@ -3,7 +3,7 @@ function RecoveryCourse() {
     <div className="course-page">
 
       <section className="course-hero">
-        <h1>كورس التعافي من إدمان الإباحية</h1>
+        <h1>كورس  من إدمان الإباحية</h1>
 
         <p>
             مش مجرد فيديوهات بتشوفها و انت بتاكل ... دي منظومة كاملة و فكر جديد تماما مسمعتوش في حتة قبل كدا 
