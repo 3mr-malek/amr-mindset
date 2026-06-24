@@ -1,5 +1,9 @@
 @import url(http://fonts.googleapis.com/earlyaccess/droidarabickufi.css);
-
+html,
+body {
+  overflow-x: hidden;
+  width: 100%;
+}
 *{
 margin:0;
 padding:0;
@@ -81,6 +85,7 @@ overflow:hidden;
 
 .hero-overlay{
 position:absolute;
+ overflow:hidden;
 width:700px;
 height:700px;
 background:#ffa31a;
@@ -262,6 +267,7 @@ color:white;
 .section{
 padding:120px 10%;
 text-align:center;
+  overflow:hidden;
 border-bottom:1px solid #1f1f1f;
 }
 
@@ -345,16 +351,19 @@ border-top:1px solid #222;
 
 
 .profile-image{
-width:350px;
-height:280px;
-border-radius:10%;
-object-fit:cover;
-margin:30px;
-border:3px solid #333;
+  width:100%;
+  max-width:350px;
+  height:auto;
+  border-radius:10%;
+  object-fit:cover;
+  margin:30px auto;
+  border:3px solid #333;
+  display:block;
 }
 
 .course-page{
   padding-top:140px;
+   overflow:hidden;
   position:relative;
 }
 
@@ -604,6 +613,7 @@ opacity:.7;
 img {
   max-width: 100%;
   height: auto;
+    display:block;
 }
 .socials-section {
   padding: 120px 10%;
@@ -706,7 +716,9 @@ img {
   .about-text {
     font-size: 1rem;
   }
-
+.about{
+  overflow:hidden;
+}
   .profile-image {
     width: 100%;
     max-width: 300px;
