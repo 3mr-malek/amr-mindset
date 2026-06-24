@@ -9,6 +9,8 @@ scroll-behavior:smooth;
 }
 h1{
   color: #e4a802 ;
+  font-size: clamp(2.5rem, 8vw, 6rem);
+
 }
 
 body{
@@ -341,25 +343,7 @@ text-align:center;
 border-top:1px solid #222;
 }
 
-@media(max-width:768px){
 
-.hero h1{
-font-size:3rem;
-}
-
-.hero-buttons{
-flex-direction:column;
-}
-
-.nav-links{
-display:none;
-}
-
-.stats{
-gap:30px;
-}
-
-}
 .profile-image{
 width:350px;
 height:280px;
@@ -617,6 +601,10 @@ opacity:.7;
   width: 100%;
   display: block;
 }
+img {
+  max-width: 100%;
+  height: auto;
+}
 .socials-section {
   padding: 120px 10%;
   text-align: center;
@@ -662,4 +650,136 @@ opacity:.7;
   border-color: #ffa31a;
   box-shadow: 0 0 30px rgba(255,163,26,.2);
   color: #ffa31a;
+}
+/* ================= MOBILE ================= */
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 18px 5%;
+    flex-wrap: wrap;
+  }
+
+  .Amr-Mindset {
+    font-size: 1.1rem;
+  }
+
+  .nav-links {
+    display: flex;
+    gap: 15px;
+    width: 100%;
+    justify-content: center;
+    margin-top: 15px;
+    flex-wrap: wrap;
+  }
+
+  .nav-links a {
+    font-size: 0.9rem;
+  }
+
+  .hero {
+    min-height: auto;
+    padding: 130px 20px 80px;
+  }
+
+  .hero h1 {
+    font-size: 2.5rem;
+    line-height: 1.3;
+  }
+
+  .badge {
+    font-size: 15px;
+    padding: 10px 15px;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+
+  .section {
+    padding: 80px 6%;
+  }
+
+  .section h2 {
+    font-size: 2.3rem;
+  }
+
+  .about-text {
+    font-size: 1rem;
+  }
+
+  .profile-image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .stats {
+    gap: 25px;
+  }
+
+  .stats h3 {
+    font-size: 2rem;
+  }
+
+  .stats p {
+    font-size: 1rem;
+  }
+
+  .cards,
+  .course-home-cards,
+  .reviews-grid,
+  .socials-grid,
+  .packages .cards {
+    grid-template-columns: 1fr;
+  }
+
+  .card,
+  .home-card {
+    min-height: auto;
+    padding: 30px 25px;
+  }
+
+  .course-hero {
+    padding: 120px 6% 60px;
+  }
+
+  .course-hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .course-hero p {
+    font-size: 1rem;
+  }
+
+  .course-video {
+    padding: 60px 5%;
+  }
+
+  .video-container iframe {
+    height: 220px;
+  }
+
+  .packages {
+    padding: 80px 6%;
+  }
+
+  .featured-card {
+    transform: none;
+  }
+
+  .reviews-section h2,
+  .socials-section h2 {
+    font-size: 2.3rem;
+  }
+
+  .primary-btn {
+    width: 100%;
+    font-size: 16px;
+    padding: 15px;
+  }
+
+  .social-card {
+    padding: 25px;
+    font-size: 1.1rem;
+  }
 }
