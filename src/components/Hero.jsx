@@ -22,9 +22,9 @@ function Hero() {
          
           <Link
             to="/course/recovery"
-            className="primary-btn"
+            className="primary-btn start-btn"
           >
- ابدأ رحلة التعافي دلوقتي     -
+ ابدأ رحلة التعافي دلوقتي     
       </Link>
           
         </div>
