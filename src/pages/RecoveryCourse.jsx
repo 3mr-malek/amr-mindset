@@ -33,7 +33,7 @@ function RecoveryCourse() {
 
       <section className="packages">
   <h1>اختر الباقة المناسبة </h1>
-  <h3>معاك 48 ساعة تقدر ترجع فيهم فلوسك </h3>
+  <h3 className="gurantee">معاك 48 ساعة تقدر ترجع فيهم فلوسك </h3>
 
   <div className="cards">
 
@@ -112,12 +112,10 @@ function RecoveryCourse() {
         <span className="old-price">2500 جنيه</span>
         <h2>1498 جنيه</h2>
       </div>
-        <p className="popular-text">
- مش هاخد اي حد سجل هنا عشان تخش مقابلة معايا و نحدد مع بعض 
-</p>
+    
 
-      <button className="coming-btn">
-        قريباً
+      <button className="primary-btn">
+        اشترك دلوقتي
       </button>
     </div>
 
