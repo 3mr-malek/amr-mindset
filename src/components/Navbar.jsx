@@ -61,9 +61,9 @@ function Navbar() {
               Home
             </Link>
 
-            <a href="#packages">
+            {/* <a href="#packages">
               Packages
-            </a>
+            </a> */}
           </>
         )}
 

@@ -10,7 +10,7 @@ function Hero() {
         <h1>
           اكسر إدمانك
           <br />
-          <br />
+       
           <span className="gold">  و متضيعش وقت من عمرك اكتر من كدا             </span>
         </h1>
 

@@ -155,28 +155,46 @@ display:inline-block;
 padding:10px 20px;
 border:5px solid #ffa31a;
 border-radius:18px;
-font-size:20px;
+font-size:50px;
 padding:12px 18px;
 font-weight: 700;
 margin-top: 50px;
 margin-bottom:25px;
 }
-.hero h1{
-  font-size:clamp(3rem,8vw,6rem);
-}
-.hero h1{
-
+/* .hero h1{
+font-size:clamp(3rem,8vw,6rem);
 line-height:1;
 margin-bottom:25px;
-}
+} */
 
 .hero p{
-font-size:1.2rem;
+font-size:1.5rem;
 color:#aaa;
 max-width:700px;
 margin:auto;
-line-height:1.8;
+line-height:1.3;
 }
+
+
+
+.hero {
+    min-height: auto;
+    padding: 70px 20px   80px;
+  }
+  .gold{
+display: flex;
+margin-top: 30px;
+  }
+  .hero h1 {
+    font-size: 4rem;
+    line-height: 1;
+  }
+
+  .badge {
+    font-size: 24px;
+    padding: 10px 15px;
+  }
+
 
 .hero-buttons{
 display:flex;
@@ -706,24 +724,8 @@ img {
   }
 }
 
-  .hero {
-    min-height: auto;
-    padding: 130px 20px 80px;
-  }
+  
 
-  .hero h1 {
-    font-size: 2.5rem;
-    line-height: 1.3;
-  }
-
-  .badge {
-    font-size: 15px;
-    padding: 10px 15px;
-  }
-
-  .hero p {
-    font-size: 1rem;
-  }
 
   .section {
     padding: 80px 6%;
