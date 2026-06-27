@@ -571,6 +571,9 @@ opacity:.7;
   .featured-card:hover{
     transform:none;
   }
+  h3{
+    line-height: 1;
+  }
   .gurantee{
     margin-top: 60px;
     color: #aaa;
