@@ -114,7 +114,9 @@ function RecoveryCourse() {
         <span className="old-price">2500 جنيه</span>
         <h2>1498 جنيه</h2>
       </div>
-    
+       <p className="popular-text">
+معاك 7 ايام تقدر ترجع فيهم فلوسك 
+</p>
 
        <a
         href="https://docs.google.com/forms/d/e/1FAIpQLSd6erJUyCQvoImLi2tRmxxo409PjCvf7G4lcHCdI_w6aWL8QQ/viewform?usp=header"
