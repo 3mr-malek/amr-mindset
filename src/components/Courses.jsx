@@ -9,7 +9,7 @@ function Courses() {
       <div className="course-home-cards">
 
         <div className="home-card home-featured">
-          <h3>كورس التعافي من</h3>
+          <h3>كورس التعافي من الاباحية</h3>
 
           <p>
             منظومة متكاملة للتعافي من إدمان الاباحية و العادة السرية
