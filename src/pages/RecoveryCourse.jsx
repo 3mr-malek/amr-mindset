@@ -34,7 +34,7 @@ function RecoveryCourse() {
       </section>
 
       <section className="packages">
-  <h1>اختر الباقة المناسبة </h1>
+  <h1>اختار الباقة المناسبة </h1>
   <h3 className="gurantee">معاك 48 ساعة تقدر ترجع فيهم فلوسك </h3>
 
   <div className="cards">
@@ -57,7 +57,7 @@ function RecoveryCourse() {
         rel="noreferrer"
         className="primary-btn"
       >
-        اشترك الآن -
+        اشترك الآن 
       </a>
     </div>
 
@@ -90,7 +90,7 @@ function RecoveryCourse() {
         rel="noreferrer"
         className="primary-btn"
       >
-        اشترك الآن - 
+        اشترك الآن  
       </a>
     </div>
 
@@ -104,7 +104,7 @@ function RecoveryCourse() {
   <li>✔ خطة تعافي مخصصة</li>
   <li>✔   مخصص ليك حسب نظامك هقولك تمشي فيه ازاي PDF</li>
   <li>✔   خطة 3 الي 6 شهور هقولك تعمل فيهم ايه </li>
-  <li>✔ عدد 12 مكالمة شخصية لهف </li>
+  <li>✔ عدد 12 مكالمة شخصية  </li>
   <li>✔ حرفيا مش هسيبك غير لما تبطل</li>
   <li>✔ بنسبة اكبر من 95% ببقا ضامن ليك انك تبطل </li>
   <li>✔ أولوية في الرد</li>
@@ -116,9 +116,13 @@ function RecoveryCourse() {
       </div>
     
 
-      <button className="primary-btn">
-        اشترك دلوقتي
-      </button>
+       <a
+        href="https://docs.google.com/forms/d/e/1FAIpQLSd6erJUyCQvoImLi2tRmxxo409PjCvf7G4lcHCdI_w6aWL8QQ/viewform?usp=header"
+        target="_blank"
+        rel="noreferrer"
+        className="primary-btn"
+      > اشترك الآن 
+      </a>
     </div>
 
   </div>
