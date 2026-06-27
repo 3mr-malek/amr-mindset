@@ -1,5 +1,6 @@
 import "./App.css";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { Analytics } from "@vercel/analytics/react";
 
 import Home from "./pages/Home";
 import RecoveryCourse from "./pages/RecoveryCourse";
@@ -16,6 +17,7 @@ function App() {
       element={<RecoveryCourse />}
     />
   </Routes>
+  <Analytics />
 </BrowserRouter>
   );
 }
