@@ -3,17 +3,17 @@ import { Link } from "react-router-dom";
 function Courses() {
   return (
     <section className="section" id="courses">
-      <span className="section-label">الكورسات</span>
-      <h2>ابدأ من هنا</h2>
+      <span className="section-label">Courses</span>
+    
 
       <div className="course-home-cards">
 
         <div className="home-card home-featured">
-          <h3>كورس التعافي</h3>
+          <h3>كورس التعافي من</h3>
 
           <p>
-            منظومة متكاملة للتعافي من إدمان البورن
-            وإعادة بناء حياتك من الصفر.
+            منظومة متكاملة للتعافي من إدمان الاباحية و العادة السرية
+            وإعادة بناء حياتك من الصفر
           </p>
 
           <Link
@@ -25,10 +25,9 @@ function Courses() {
         </div>
 
         <div className="home-card">
-          <h3>ابنِ الرجل</h3>
+          <h3>Zero To Hero </h3>
 
           <p>
-            ثقة، انضباط، ونمو حقيقي. قريباً.
           </p>
 
           <button className="coming-btn">

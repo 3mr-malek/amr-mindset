@@ -21,7 +21,6 @@ function Reviews() {
         النتائج
       </span>
 
-      <h2>قصص النجاح</h2>
 
       <p className="reviews-text">
         دي مجرد جزء صغير من الرسائل اللي بتوصلني من الناس
