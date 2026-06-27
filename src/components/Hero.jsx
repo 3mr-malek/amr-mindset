@@ -11,7 +11,7 @@ function Hero() {
           اكسر إدمانك
           <br />
        
-          <span className="gold">  و متضيعش وقت من عمرك اكتر من كدا             </span>
+          <span className="gold"> و متضيعش عمرك</span>
         </h1>
 
         <p className="hero-sub">مهمتي إنك تتعافى من إدمان الاباحية و تبني ثقتك في نفسك من جديد
