@@ -14,7 +14,7 @@ box-sizing:border-box;
 scroll-behavior:smooth;
 }
 h1{
-  color: #e4a802 ;
+  color: #ffffff ;
   font-size: clamp(2.5rem, 8vw, 6rem);
   font-family:'Lalezar',sans-serif;
 }
