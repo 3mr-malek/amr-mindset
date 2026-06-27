@@ -1,6 +1,8 @@
+import Navbar from "../components/Navbar";
 function RecoveryCourse() {
   return (
     <div className="course-page">
+       <Navbar />
 
       <section className="course-hero">
         <h1>كورس التعافي من إدمان الإباحية</h1>

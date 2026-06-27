@@ -553,7 +553,7 @@ opacity:.7;
     transform:none;
   }
   .gurantee{
-    margin-top: 30px;
+    margin-top: 60px;
     color: #aaa;
   }
 
@@ -768,7 +768,7 @@ img {
   }
 
   .course-hero h1 {
-    font-size: 2.5rem;
+    font-size: 3.5rem;
   }
 
   .course-hero p {
@@ -780,7 +780,7 @@ img {
   }
 
   .video-container iframe {
-    height: 220px;
+    height: 520px;
   }
 
   .packages {

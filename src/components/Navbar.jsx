@@ -1,20 +1,21 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Navbar() {
   const [menuOpen, setMenuOpen] = useState(false);
+  const location = useLocation();
+
+  const isHome = location.pathname === "/";
 
   return (
     <nav className="navbar">
-
-      <a
+      <Link
         className="Amr-Mindset"
-        href="https://www.youtube.com/@3mr-Malek"
-        target="_blank"
-        rel="noreferrer"
+        to="/"
+        onClick={() => setMenuOpen(false)}
       >
         AMR MINDSET
-      </a>
+      </Link>
 
       <div
         className="hamburger"
@@ -28,26 +29,43 @@ function Navbar() {
           menuOpen ? "active" : ""
         }`}
       >
-        <a
-          href="#about"
-          onClick={() => setMenuOpen(false)}
-        >
-          About
-        </a>
+        {isHome ? (
+          <>
+            <a
+              href="#about"
+              onClick={() => setMenuOpen(false)}
+            >
+              About
+            </a>
 
-        <a
-          href="#courses"
-          onClick={() => setMenuOpen(false)}
-        >
-          Courses
-        </a>
+            <a
+              href="#courses"
+              onClick={() => setMenuOpen(false)}
+            >
+              Courses
+            </a>
 
-        <a
-          href="#results"
-          onClick={() => setMenuOpen(false)}
-        >
-          Results
-        </a>
+            <a
+              href="#results"
+              onClick={() => setMenuOpen(false)}
+            >
+              Results
+            </a>
+          </>
+        ) : (
+          <>
+            <Link
+              to="/"
+              onClick={() => setMenuOpen(false)}
+            >
+              Home
+            </Link>
+
+            <a href="#packages">
+              Packages
+            </a>
+          </>
+        )}
 
         <Link
           to="/course/recovery"
